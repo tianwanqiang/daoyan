@@ -137,14 +137,37 @@ metadata:
 
 ## 补充维度四：转场设计
 
-### 4.1 转场类型与情绪
+> 转场分为两个层级：**基础转场**是剪辑的基本操作单元，是所有转场的底层实现；**视听语言转场**是在基础操作之上叠加情绪和风格的更高维度表达。
+
+### 4.1 剪辑基础转场（5种基本操作）
+
+> 硬切是主力——80%的场景用硬切。叠化、匹配剪辑是加分项，不是必选项。J-cut / L-cut 为后期配音阶段的剪辑指导。
+
+| 转场 | 画面表现 | 导演意图 | 剧情匹配 |
+|---|---|---|---|
+| **硬切** (Hard Cut) | 直接切换，无过渡 | 干脆，节奏感强 | 快节奏剪辑、信息推进 |
+| **叠化** (Dissolve) | 两画面交融溶解 | 时间流逝、回忆感 | 文艺片、情感戏 |
+| **匹配剪辑** (Match Cut) | 形状/动作/色彩匹配连接 | 高级、隐喻、连贯 | 作者风格片、品牌片 |
+| **J-cut** | 下一镜声音先进来（画面未切） | 自然引导、期待感 | 对话戏、场景切换 |
+| **L-cut** | 上一镜声音继续留（画面已切） | 情绪延续、不舍感 | 离别戏、情感收束 |
+
+**基础转场提示词：**
+
+| 转场 | 中文提示词 | 英文提示词 |
+|---|---|---|
+| 硬切 | 硬切，无过渡，直接跳转 | abrupt hard cut, instant transition, no transition |
+| 叠化 | 叠化过渡，两画面交融，时间流逝感 | dissolve transition, cross-dissolve, two shots blending |
+| 匹配剪辑 | 匹配剪辑，形状/动作呼应连接 | match cut, visual echo between two unrelated scenes |
+| J-cut | J-cut，声音先入，画面后切（配音阶段执行） | J-cut, audio preceding the visual cut (post-production) |
+| L-cut | L-cut，画面已切，声音延续（配音阶段执行） | L-cut, audio lingering after the visual cut (post-production) |
+
+### 4.2 视听语言转场（情绪级）
+
+> 以下转场是在基础操作之上叠加情绪冲击和风格表达的更高维度应用。
 
 | 转场 | 情绪 | 提示词 |
 |---|---|---|
-| 硬切（Hard Cut） | 直接、果断、节奏 | abrupt hard cut, instant transition |
 | 淡入淡出（Fade） | 柔和、时间流逝、开始/结束 | slow fade to black/white, time passage |
-| 叠化（Dissolve） | 回忆、关联、梦幻 | slow cross-dissolve, dreamy overlap transition |
-| 匹配剪辑（Match Cut） | 巧妙、意象连接、视觉呼应 | match cut, visual continuity between two unrelated scenes |
 | 甩镜转场（Whip Pan） | 速度、能量、节奏冲击 | whip pan transition, motion blur bridge between scenes |
 | 越轴转场 | 打破规则、不安、冲突 | axis jump cut, disorienting transition |
 | 相似形转场（Shape Match）| 精致、设计感 | shape-match transition, visual echo cut |
@@ -183,5 +206,6 @@ metadata:
 
 ## 版本记录
 
+- v2.1 (2026-07-02)：重构转场设计维度——新增「剪辑基础转场」5种（硬切/叠化/匹配剪辑/J-cut/L-cut），原有转场归入「视听语言转场（情绪级）」，形成两层级转场体系
 - v2.0 (2026-07-01)：在基础文档（镜头.md）之上补充了灯光设计体系、色彩/调色体系、构图法则（含画幅比）、转场设计、综合创作工作流五个维度
 - v1.0：基础文档十二章节，包含焦距/景别/机位/运镜/情绪组合/剪辑/三幕式/角色动机/五大模型/脚本模板
